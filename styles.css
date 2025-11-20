@@ -1,0 +1,99 @@
+/* Global layout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333333;
+    font-size: 28px;
+}
+
+nav {
+    margin-bottom: 20px;
+    background-color: #333333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Common table layout for pages */
+.place-layout {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.place-layout td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+.place-layout img {
+    width: 100%;
+    max-width: 350px;
+    border: 1px solid #cccccc;
+}
+
+.place-title {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Home page map table */
+.map-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.map-table td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #777777;
+}
+
+/* Back link */
+.back-home {
+    margin-top: 20px;
+}
